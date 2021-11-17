@@ -1,8 +1,8 @@
 # Leetcode-playground-fsharp
 
-![.NET](https://github.com/NikiforovAll/leetcode-playground-fsharp-template/workflows/.NET/badge.svg)
-[![GitHub License](https://img.shields.io/github/license/nikiforovall/leetcode-playground-fsharp-template)](./LICENSE.md)
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/NikiforovAll/leetcode-playground-fsharp-template)
+![.NET](https://github.com/NikiforovAll/leetcode-playground-fsharp/workflows/.NET/badge.svg)
+[![GitHub License](https://img.shields.io/github/license/nikiforovall/leetcode-playground-fsharp)](./LICENSE.md)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/NikiforovAll/leetcode-playground-fsharp)
 
 This template allows you to solve leetcode problems locally via F#.
 

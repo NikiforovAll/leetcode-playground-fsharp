@@ -11,8 +11,8 @@ return [0, 1].
 namespace TwoSum
 
 module Solution =
-let twoSum (nums:int[]) target =
-    let rec search (map:Map<int,int>) (arr:int[]) idx = 
-        if map.ContainsKey(target-arr.[idx]) then (map.Item(target-arr.[idx]),idx)
-        else search (map.Add(arr.[idx],idx)) arr (idx+1)
-    search Map.empty nums 0
+    let twoSum (nums:int[]) target =
+        let rec search (map:Map<int,int>) (arr:int[]) idx =
+            if map.ContainsKey(target-arr.[idx]) then (map.Item(target-arr.[idx]),idx)
+            else search (map.Add(arr.[idx],idx)) arr (idx+1)
+        search Map.empty nums 0

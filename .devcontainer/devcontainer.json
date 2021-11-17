@@ -30,12 +30,13 @@
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
 		"ionide.ionide-fsharp",
+		"formulahendry.dotnet-test-explorer",
+		"leetcode.vscode-leetcode",
 		"eamodio.gitlens",
 		"mhutchie.git-graph",
 		"codezombiech.gitignore",
 		"yzhang.markdown-all-in-one",
-		"editorconfig.editorconfig",
-		"leetcode.vscode-leetcode"
+		"editorconfig.editorconfig"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5001],
